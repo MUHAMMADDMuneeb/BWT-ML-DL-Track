@@ -1,0 +1,28 @@
+Introduction to Version Control with Git and GitHub
+Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. It is essential for collaborative projects and maintaining a history of your codebase. Git is a popular version control system that allows multiple people to work on a project simultaneously without overwriting each other's changes. GitHub is a cloud-based hosting service that lets you manage Git repositories, offering additional features like collaboration tools, issue tracking, and more.
+1.	Repository (Repo): A repository contains all the files and their history for a project. It can be local to your computer or hosted on a platform like GitHub.
+2.	Commit: A commit is a snapshot of your project at a point in time. Each commit has a unique ID and can include a message describing what changes were made.
+3.	Branch: Branches allow you to diverge from the main line of development and continue to work separately without affecting the main project. The main branch (previously called master) is the default branch.
+4.	Merge: Merging is the process of integrating changes from different branches into a single branch.
+5.	Clone: Cloning is copying a repository from a remote server to your local machine.
+6.	Push: Pushing sends your committed changes to a remote repository.
+7.	Pull: Pulling fetches updates from a remote repository and integrates them into your local repository.
+Using Git and GitHub
+1.	Install Git: Before using Git, you need to install it on your system. 
+2.	Configure Git: After installation, set your username and email same that in Github account using the commands
+git config --global user.name "MUHAMMADDMuneeb"
+git config --global user.email "muhammadmuneebabbas24@gmail.com"
+3.	Creating a Repository: you can create it from your Github account and then clone it to your laptop from Remote to Local
+4.	Git Commands
+They are many Git commands you can use in the terminal, and that can get overwhelming. So I'd suggest focusing on some of the most popular ones first.
+Here they are:
+git init lets you initialize Git in your folder.
+git add Readme.md lets you add the Readme file, while git add . lets you add all files in the present folder.
+git commit stores the added files. Use -m for message followed by the actual message.
+git branch creates a new branch which is a new version of the repository as it appears when added, and -M to move the name to main.
+git remote add origin finally connects the local folder to the repository on GitHub. It is followed by the repository's link.
+git push -u origin main pushes the code to GitHub. The -u flag creates a tracking reference for the branch, and origin main puts the code in the main branch.
+Those are some of the main commands you'll use all the time. This is a beginner and non-technical guide to help you get started using Git and GitHub, so we won't go into too much more detail here.
+The more you continue using GitHub, the more comfortable you'll get using these commands. The key is to start small and maintain your momentum.
+It will eventually get easier as you build small projects and host them on GitHub using Git.
+If you find it hard to use the terminal to navigate between folders, spend some time to practice with it. Again, it gets easier with time and use.

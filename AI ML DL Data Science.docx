@@ -1,0 +1,25 @@
+Artificial Intelligence (AI):
+•	Definition: The broad field focused on creating systems capable of performing tasks that typically require human intelligence. Artificial intelligence is the ability that can be imparted to computers which enables these machines to understand data, learn from the data, and make decisions based on patterns hidden in the data, or inferences that could otherwise be very difficult (to almost impossible) for humans to make manually. AI also enables machines to adjust their “knowledge” based on new inputs that were not part of the data used for training these machines.
+•	Types:
+o	Narrow AI: Designed for specific tasks (e.g., voice assistants).
+o	General AI: Hypothetical, human-like intelligence across various domains.
+o	Superintelligent AI: Beyond human intelligence (theoretical).
+Machine Learning (ML):
+•	Definition: A subset of AI that uses algorithms and statistical models to enable systems to learn from data and improve over time without being explicitly programmed. Machine Learning (ML) is considered a sub-set of AI. You can even say that ML is an implementation of AI. So whenever you think AI, you can think of applying ML there. As the name makes it pretty clear, ML is used in situations where we want the machine to learn from the huge amounts of data we give it, and then apply that knowledge on new pieces of data that streams into the system.
+•	Types:
+o	Supervised Learning: Models trained on labeled data (e.g., classification, regression).
+o	Unsupervised Learning: Models trained on unlabeled data (e.g., clustering, association).
+o	Reinforcement Learning: Models learn by interacting with an environment (e.g., game playing).
+o	SemiSupervised Learning: Models trained on labeled and unlabel data both. It is used in a system where label data is very expensive. So they use little amount of label data with large amount of unlabel data
+Deep Learning (DL):
+•	Definition: A subset of ML that utilizes neural networks with many layers (deep neural networks) to analyze various data types. Deep Learning (DL) is an advancement of ML. Even though ML is super powerful for most applications, there are situations where ML leaves a lot to be desired. That is where deep learning steps in. It is generally believed that if your training dataset is relatively small, you go with ML. But if you have huge amounts of data on which you can train a model, and if the data has too many features, and if accuracy is super important (accuracy is always important though), you take the deep learning route.
+•	Types:
+o	Convolutional Neural Networks (CNNs): Primarily used for image and video processing.
+o	Recurrent Neural Networks (RNNs): Used for sequential data like time series and natural language.
+Data Science (DS):
+•	Definition: An interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data.
+•	Types:
+o	Descriptive Analytics: Understanding historical data to identify patterns.
+o	Predictive Analytics: Using models to forecast future events.
+o	Prescriptive Analytics: Recommending actions based on data.
+
