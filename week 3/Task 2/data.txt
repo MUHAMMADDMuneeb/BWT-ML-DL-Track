@@ -1,0 +1,2 @@
+This is an example text file.
+It contains several words to demonstrate the file reading functionality.
