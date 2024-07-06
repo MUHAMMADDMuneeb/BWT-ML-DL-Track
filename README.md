@@ -1,2 +1,2 @@
 # BWT-ML-DL-Track
-1st Task of my Bitwise ML/DL Internship
+Machie Learning and Deep Learning Internship All Tasks and Projects
