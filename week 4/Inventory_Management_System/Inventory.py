@@ -1,11 +1,25 @@
 from .FoodItem import FoodItem
 from .FileManager import FileHandler
+import datetime
 
 class Inventory:
     def __init__(self,file_handler):
         self.items=[]
         self.file_handler=file_handler
         self.items=self.file_handler.load_from_file()
+        self._index=0
+        
+    def __iter__(self):
+        self._index = 0
+        return self
+   # Here is the Implemention of Iterator
+    def __next__(self):
+        if self._index < len(self.items):
+            item = self.items[self._index]
+            self._index += 1
+            return item
+        else:
+            raise StopIteration
         
         
     def Add_Item(self,Food_Item):
@@ -50,3 +64,8 @@ class Inventory:
             if item.expiredate - current_date <= datetime.timedelta(days=days):
                 near_expiry.append(item)
         return near_expiry
+    def near_expiry_generator(self, days=7):
+        current_date = datetime.date.today()
+        for item in self.items:
+            if item.expiredate - current_date <= datetime.timedelta(days=days):
+                yield item
