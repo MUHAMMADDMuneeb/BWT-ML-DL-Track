@@ -8,6 +8,7 @@ from Inventory_Management_System import FoodItem
 
 
 if __name__ == "__main__":
+
     file_handler = FileHandler()
     inventory = Inventory(file_handler)
 
@@ -24,12 +25,22 @@ if __name__ == "__main__":
     inventory.Add_Item(item4)
     inventory.Add_Item(item5)
 
-    # Using the iterator to iterate through items
-    print("All items in inventory:")
-    for item in inventory:
+   
+
+    # Searching for an item by barcode
+    print("\nSearch by barcode '987654':")
+    results = inventory.Search_Item(barcode="987654")
+    for item in results:
         print(item)
 
-    # Using the generator to get near expiry items
-    print("\nItems nearing expiry:")
-    for item in inventory.near_expiry_generator(days=7):
-        print(item)
+    # Generating a near expiry report
+    print("\nNear expiry report:")
+    print(inventory.generate_report_near_expiry(days=7))
+
+    # Generating a low stock report
+    print("\nLow stock report:")
+    print(inventory.generate_report_low_stock(threshold=20))
+
+    # Generating a category summary
+    print("\nCategory summary report:")
+    print(inventory.generate_category_summary())

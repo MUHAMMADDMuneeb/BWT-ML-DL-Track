@@ -3,7 +3,7 @@ import datetime
 from .FoodItem import FoodItem
 
 class FileHandler:
-    def __init__(self, filename='inventory.csv'):
+    def __init__(self, filename='F:/Bitwise ML DL Intership/BWT-ML-DL-Track/week 4/inventory.csv'):
         self.filename = filename
 
     def load_from_file(self):
@@ -25,7 +25,7 @@ class FileHandler:
     def save_to_file(self, items):
         try:
            
-            with open("Output.csv", mode='w', newline='') as file:
+            with open("F:/Bitwise ML DL Intership/BWT-ML-DL-Track/week 4/Output.csv", mode='w', newline='') as file:
                 writer = csv.writer(file)
                 for item in items:
                     print(item)
