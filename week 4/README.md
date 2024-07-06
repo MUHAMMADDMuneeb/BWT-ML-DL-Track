@@ -9,9 +9,11 @@ To add an item, provide details like name, category, quantity, barcode, and expi
 Edit Items: <br>
 To edit an item, provide the barcode and new details. Use the edit_item function to update the item.
 <br>
+
 Delete Items:<br>
 To delete an item, provide its barcode and use the delete_item function to remove it from the inventory.
 <br>
+
 Search Items:<br>
 To search for items, use the search_item function with the barcode, name, or category.<br>
 
@@ -24,5 +26,6 @@ Use the near_expiry_generator function to get items that are nearing their expir
 Generate Reports: <br>
 Use functions like generate_report_near_expiry, generate_report_low_stock, and generate_category_summary to create various reports based on inventory data.
 <br>
+
 Output: <br>
 At Last it will enter the inventory data to Output.csv file
